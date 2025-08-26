@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 function useGif(tag) {
-  let API_KEY = "AoKc4J9fW4mYMnlFsgDFCfWKJFoKsUck";
+  let API_KEY = "";
 
   const [gif, setgif] = useState("");
   const [loading, setloading] = useState(false);
@@ -26,3 +26,4 @@ function useGif(tag) {
   };
 }
 export default useGif;
+
